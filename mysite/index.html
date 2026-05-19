@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rediet Elias | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of Rediet Elias, a 22-year-old Computer Science Student and Full Stack Developer.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress"></div>
+
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">RE<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="greeting">Welcome to my universe</h2>
+            <h1 class="name">Hi, I'm <span class="neon-text">Rediet Elias</span></h1>
+            <h3 class="role">I am a <span class="typed-text"></span></h3>
+            <p class="hero-desc">Computer Science Student & Full Stack Developer engineering premium, scalable digital experiences.</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-glow">View Work</a>
+                <a href="assets/cv.pdf" class="btn btn-outline" download>Download CV</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://t.me/Yaiky" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://tiktok.com/@redda699" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in" data-aos-duration="2000">
+            <!-- Ensure you place your image in the assets folder -->
+            <div class="image-wrapper glass-panel">
+                <img src="r4.jpg" alt="Rediet Elias - Developer" id="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header" data-aos="fade-right">
+            <h2>About <span class="neon-text">Me</span></h2>
+        </div>
+        <div class="about-container glass-panel" data-aos="fade-up">
+            <div class="about-text">
+                <h3>Architecting the Web of Tomorrow</h3>
+                <p>I am a 22-year-old Computer Science student at <strong>Wolayta Sodo University</strong>, specializing in full-stack web development and software engineering. I bridge the gap between complex backend logic and immersive, futuristic frontend interfaces.</p>
+                <p>My career goal is to architect scalable software solutions that push the boundaries of modern web technologies while continuously evolving as an engineer.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h4 class="counter" data-target="3">0</h4>
+                        <p>Years CS Studies</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="counter" data-target="15">0</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h4 class="counter" data-target="5">0</h4>
+                        <p>Core Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-header" data-aos="fade-right">
+            <h2>Technical <span class="neon-text">Arsenal</span></h2>
+        </div>
+        <div class="skills-grid">
+            <!-- Skill Cards -->
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+                <i class="fab fa-html5 skill-icon" style="color: #e34f26;"></i>
+                <h3>HTML5 & CSS3</h3>
+                <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+                <i class="fab fa-js skill-icon" style="color: #f7df1e;"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+                <i class="fab fa-php skill-icon" style="color: #777bb4;"></i>
+                <h3>PHP & MySQL</h3>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="400">
+                <i class="fab fa-laravel skill-icon" style="color: #ff2d20;"></i>
+                <h3>Laravel</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="500">
+                <i class="fab fa-python skill-icon" style="color: #3776ab;"></i>
+                <h3>Python</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="600">
+                <i class="fab fa-java skill-icon" style="color: #007396;"></i>
+                <h3>Java</h3>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+            <div class="skill-card glass-panel" data-aos="fade-up" data-aos-delay="700">
+                <i class="fab fa-git-alt skill-icon" style="color: #f05032;"></i>
+                <h3>Git & GitHub</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-header" data-aos="fade-right">
+            <h2>Featured <span class="neon-text">Deployments</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-panel" data-aos="fade-up">
+                <div class="project-img">
+                    <img src="assets/project1.jpg" alt="Computer Lab System">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> Source</a>
+                        <a href="#" class="btn btn-glow"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Computer Laboratory Management System</h3>
+                    <p>A comprehensive system for tracking lab hardware, scheduling, and user management.</p>
+                    <div class="tech-stack"><span>PHP</span><span>MySQL</span><span>JS</span></div>
+                </div>
+            </div>
+
+            <div class="project-card glass-panel" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-img">
+                    <img src="assets/project2.jpg" alt="Student Management System">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Student Management System</h3>
+                    <p>Academic tracking application streamlining registration and grading processes.</p>
+                    <div class="tech-stack"><span>Java</span><span>SQL</span></div>
+                </div>
+            </div>
+
+            <div class="project-card glass-panel" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-img">
+                    <img src="assets/project3.jpg" alt="Portfolio Website">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> Source</a>
+                        <a href="#" class="btn btn-glow"><i class="fas fa-external-link-alt"></i> Demo</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Premium Portfolio</h3>
+                    <p>This very website, featuring glassmorphism, advanced animations, and custom UI components.</p>
+                    <div class="tech-stack"><span>HTML5</span><span>CSS3</span><span>Vanilla JS</span></div>
+                </div>
+            </div>
+
+            <div class="project-card glass-panel" data-aos="fade-up" data-aos-delay="300">
+                <div class="project-img">
+                    <img src="assets/project4.jpg" alt="Laravel Auth System">
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> Source</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Laravel Authentication System</h3>
+                    <p>Robust backend service featuring secure login, registration, and session management.</p>
+                    <div class="tech-stack"><span>Laravel</span><span>PHP</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="section-header" data-aos="fade-right">
+            <h2>What I <span class="neon-text">Provide</span></h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card glass-panel" data-aos="zoom-in" data-aos-delay="100">
+                <i class="fas fa-code"></i>
+                <h3>Frontend Development</h3>
+                <p>Creating highly interactive, responsive, and visually stunning user interfaces.</p>
+            </div>
+            <div class="service-card glass-panel" data-aos="zoom-in" data-aos-delay="200">
+                <i class="fas fa-server"></i>
+                <h3>Backend Development</h3>
+                <p>Building secure, scalable, and efficient server-side logic and RESTful APIs.</p>
+            </div>
+            <div class="service-card glass-panel" data-aos="zoom-in" data-aos-delay="300">
+                <i class="fas fa-database"></i>
+                <h3>Database Design</h3>
+                <p>Structuring optimized schemas for data integrity and high-performance querying.</p>
+            </div>
+            <div class="service-card glass-panel" data-aos="zoom-in" data-aos-delay="400">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Ensuring flawless execution and aesthetics across all devices and screen sizes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header" data-aos="fade-right">
+            <h2>Initialize <span class="neon-text">Connection</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info glass-panel" data-aos="fade-right">
+                <h3>Contact Details</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>redietredda53@gmail.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+251 921065675</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Wolaita Sodo, Ethiopia</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form id="contact-form" class="glass-panel" data-aos="fade-left">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" required placeholder=" " rows="5"></textarea>
+                    <label for="message">Transmission Data</label>
+                </div>
+                <button type="submit" class="btn btn-glow w-100">Send Message <i class="fas fa-paper-plane"></i></button>
+                <div id="form-status"></div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="glass-nav">
+        <p>&copy; 2026 Rediet Elias. Engineered with precision.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
